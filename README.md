@@ -11,13 +11,16 @@ Result: Bronze Medal, top 6% ranking 315/5558 in final private leaderboard.
 ## EDA
 
 General exploratory data analysis for the time series data among 5 years.
+
 <img src="./vis/Picture1.png" width="800px">
 
 Random id choosed time series data plot.
+
 <img src="./vis/Picture2.png" width="800px">
 
 Aggregate Sales plot.
-<img src="./vis/Picture2.png" width="800px">
+
+<img src="./vis/Picture4.png" width="800px">
 
 More detailed EDA credit to [Kaggle Competition Notebook] (https://www.kaggle.com/headsortails/back-to-predict-the-future-interactive-m5-eda)
 
@@ -27,6 +30,7 @@ Run ```python lgbmodel.py```
 Will get the result in submission_lgbm.csv
 
 Results of feature importance.
+
 <img src="./vis/importance.png" width="800px">
 
 ## NN(LSTM+CNN) Model
@@ -40,7 +44,7 @@ Run ```python test2.py```
 Will get final submission which we submit in the competition.
 
 ## Competition Results
-Results of Competition
+Results of Competition.
 <img src="./vis/Result.png" width="800px">
 
 
