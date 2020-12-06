@@ -2,11 +2,11 @@
 
 code for Kaggle [M5 Forecasting - Accuracy] (https://www.kaggle.com/c/m5-forecasting-accuracy)
 
-A ensemble method of lightGBM and NN model is adopted: 0.7*lgbm +0.3*(lstm+cnn epoch3) 
-For lightgbm, according to data provided by the organizer, we custom lag-7 and lag-28 and their mean featu which is pretty helpful for the prediction.
+A ensemble method of lightGBM and NN model is adopted: 0.6*lgbm +0.4*(lstm+cnn epoch3) 
+For lightgbm, according to data provided by the organizer, we custom lag-7 and lag-28 and their mean feature which is pretty helpful for the prediction.
 For the NN model, we use layers combination of LSTM for remember history features, and 1-D CNN to capture neibougher features. 
 
-Result: Bronze Medal, top 6% ranking 315/5558 in final private leaderboard.
+Result: Silver Medal, top 2% ranking 93/5558 in final private leaderboard.
 
 ## EDA
 
@@ -43,9 +43,8 @@ Will get the result in submission_lstmcnn.csv
 Run ```python test2.py``` 
 Will get final submission which we submit in the competition.
 
-## Competition Results
-Results of Competition.
-<img src="./vis/Result.png" width="800px">
+
+
 
 
 
