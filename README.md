@@ -1,6 +1,7 @@
-# Sales-Prediction-Accuracy M5 Forecasting - Accuracy
+# Sales-Prediction-Accuracy
 
 code for Kaggle [M5 Forecasting - Accuracy] (https://www.kaggle.com/c/m5-forecasting-accuracy)
+Related data also can be downloaded from Kaggle.
 
 A ensemble method of lightGBM and NN model is adopted: 0.6*lgbm +0.4*(lstm+cnn epoch3) 
 For lightgbm, according to data provided by the organizer, we custom lag-7 and lag-28 and their mean feature which is pretty helpful for the prediction.
